@@ -1,0 +1,24 @@
+# Core libraries
+opencv-python==4.8.1.78
+numpy==1.24.3
+scikit-image==0.21.0
+matplotlib==3.7.2
+
+# Deep Learning
+torch==2.0.1
+torchvision==0.15.2
+ultralytics==8.0.196
+
+# Utilities
+pillow==10.0.0
+tqdm==4.66.1
+pandas==2.0.3
+
+# Jupyter for experiments
+jupyter==1.0.0
+ipykernel==6.25.1
+
+# Later phases (can install now or later)
+flask==2.3.3
+requests==2.31.0
+cryptography==41.0.4

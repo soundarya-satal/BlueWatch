@@ -1,0 +1,44 @@
+# Virtual environment
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (too large for git)
+data/raw/
+data/processed/
+*.jpg
+*.png
+*.mp4
+*.avi
+
+# Models (too large)
+models/*.pt
+models/*.pth
+*.weights
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+logs/*.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Certificates
+*.pem
+*.key
+*.crt
